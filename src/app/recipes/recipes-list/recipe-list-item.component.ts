@@ -15,7 +15,7 @@ import { Recipe } from '../recipe.model';
        </div>
       </a>
   </div>
-
+  <br>
   `
 })
 export class RecipeListItemComponent implements OnInit {
