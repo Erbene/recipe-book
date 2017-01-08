@@ -1,0 +1,14 @@
+
+<div class="row">
+  <div class="col-xs-12">
+    <a class="btn btn-success">New Recipe</a>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="list-group">
+      <rb-recipe-list-item [recipe]="recipe" (click)="OnSelected(recipe)"></rb-recipe-list-item>
+    </div>
+  </div>
+</div>
